@@ -1,4 +1,3 @@
-
 public class Task1 {
 	public static void main(String[] args) {
 		int[] Numbers = new int[args.length];
@@ -21,6 +20,8 @@ public class Task1 {
 	}
 }
 
+------------------------------------------------------------
+
 public class Task2 {
 	public static void main(String[] args) {
 		String s = "";
@@ -38,6 +39,8 @@ public class Task2 {
 		return -1;
 	}
 }
+
+-------------------------------------------------------------
 
 public class Task3 {
 	public static void main(String[] args) {
@@ -58,6 +61,8 @@ public class Task3 {
 		return (result == n);	
 	}
 }
+
+------------------------------------------------------------
 
 public class Task4 {
 	public static void main(String[] args) {
@@ -81,16 +86,15 @@ public class Task4 {
 	}
 }
 
+-------------------------------------------------------------
+
 import java.util.Arrays;
 import java.util.List;
-
-
 
 public class Task5 {
 	public static void main(String[] args) {
 		System.out.println(isValidHex(args[0]));
 	}
-
 
 	public static boolean isValidHex(String s) {
 		String[] allowed = new String[] {"1", "2", "3", "4", "5", "6", "7", "8", "9", "0", "A", "B", "C", "D", "E", "F"};
@@ -110,12 +114,13 @@ public class Task5 {
 	}
 }
 
+-----------------------------------------------------------
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.*;
-
 
 public class Task6 {
 	public static void main(String[] args) {
@@ -134,16 +139,15 @@ public class Task6 {
 	}
 }
 
+-------------------------------------------------------------
+
 import java.util.Arrays;
 import java.util.List;
-
-
 
 public class Task7 {
 	public static void main(String[] args) {
 		System.out.println(isKaprekar(Integer.parseInt(args[0])));
 	}
-
 
 	public static boolean isKaprekar(int x) {
 		String result = String.valueOf((int)Math.pow(x, 2));
@@ -157,11 +161,12 @@ public class Task7 {
 	}
 }
 
+-----------------------------------------------------------------
+
 public class Task8 {
 	public static void main(String[] args) {
 		System.out.println(lognestZero(args[0]));
 	}
-
 
 	public static String lognestZero(String s) {
 		int count = 0;
@@ -181,11 +186,12 @@ public class Task8 {
 	}
 }
 
+------------------------------------------------------------------
+
 public class Task9 {
 	public static void main(String[] args) {
 		System.out.println(nextPrime(Integer.parseInt(args[0])));
 	}
-
 
 	public static int nextPrime(int number) {
 		boolean isPrime = true;
@@ -201,8 +207,9 @@ public class Task9 {
 	}
 }
 
-import java.util.*;
+------------------------------------------------------------------
 
+import java.util.*;
 
 public class Task10 {
 	public static void main(String[] args) {
