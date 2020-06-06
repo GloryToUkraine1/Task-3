@@ -73,10 +73,10 @@ public class Task4 {
 
 	public static String checkPerfect(String s) {
 		if (s.length() <= 2) {
-			return "Incompatible.";
+			return "Несовместимо.";
 		}
 		if (s.charAt(0) == s.charAt(s.length() - 1)) {
-			return "Two's a pair.";
+			return "Две пары.";
 		}
 		char first = s.charAt(0);
 		char last = s.charAt(s.length() - 1);
