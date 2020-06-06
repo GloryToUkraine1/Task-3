@@ -1,3 +1,4 @@
+
 public class Task1 {
 	public static void main(String[] args) {
 		int[] Numbers = new int[args.length];
